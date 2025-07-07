@@ -19,11 +19,14 @@ int main()
         answer == 'c' || answer == 'C' ||
         answer == 'd' || answer == 'D') {
         
-        if (answer == 'c' || answer == 'C') {
+        if (answer == 'c' || answer == 'C') 
+	{
             score++;
         }
 
-    } else {
+    } 
+    else
+    {
         
         printf("You are entering wrong alphabet\n");
         printf("Enter Your Answer: ");
@@ -39,7 +42,9 @@ int main()
             score++;
         }
 
-    } else {
+    } 
+    else
+    {
         printf("You are entered wrong option again no more attempts\n");
     }
 
@@ -57,7 +62,8 @@ int main()
         answer == 'c' || answer == 'C' ||
         answer == 'd' || answer == 'D') {
         
-        if (answer == 'b' || answer == 'B') {
+        if (answer == 'b' || answer == 'B') 
+	{
             score++;
         }
 
@@ -78,7 +84,7 @@ int main()
         if (answer == 'b' || answer == 'B')
 	    {
             score++;
-        }
+            }
 
     } 
 	else
